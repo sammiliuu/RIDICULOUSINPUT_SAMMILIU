@@ -1,0 +1,115 @@
+
+#movingButton {
+    position: absolute;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    transition: all 0.5s ease;
+    z-index: 10;
+    flex-wrap: nowrap;
+}
+
+#movingButton:hover {
+    background-color: #8700c6;
+}
+
+
+.button {
+  display: inline-block; /* allows padding and width/height adjustments */
+  padding: 10px 30px; 
+  margin-top: 25px;
+  text-decoration: none;
+  background-color: #007bff; 
+  color: white;           
+  cursor: pointer;         /* changes cursor to a hand pointer */
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  z-index: 10;      /* moves button position to front*/
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.firstpage{
+    margin-top: 170px;
+    margin-left: 360px;
+    margin-right: 360px;
+    padding: 100px;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+
+.combo{
+    position: relative;
+    font-size: 50px;
+    font-family: "Gochi Hand", cursive;
+    text-align: center;
+    top: 240px;
+    margin-left: 580px;
+    margin-right: 580px;
+    padding-top: 10px;
+    border-radius: 20px;
+  
+}
+
+.title{
+    align-content: center;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    top: 100px;
+    left: 0px;
+
+}
+
+#combo-miss {
+  position: absolute;       
+  text-align: center;      
+  margin: 10px;     
+  width: auto; 
+  font-family: Arial, Helvetica, sans-serif;           
+  color: red; 
+  top: 550px;           
+  left: 530px;
+  font-size: 20px;
+}
+
+#random-number-display {
+  position: absolute;
+  display: flex;
+  align-items: center; 
+  gap: 12px; /* space between the words */
+  justify-content: center;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 100px;
+  left: 435px;
+}
+
+#combo-text {
+  position: relative;
+  top: -40px;
+  font-size: 30px;
+}
+
+#count-display {
+  font-size: 60px;
+}
+
+#pink-circle { 
+  width: 10px;
+  height: auto;
+  object-fit: contain;
+}
+
+#color-box {
+  transition: background-color 0.3s ease-in-out;
+}

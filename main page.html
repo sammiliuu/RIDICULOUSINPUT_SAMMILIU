@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirm you're not a robot</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+
+    <style>
+       body{
+        background-image: url(assets/robot\ background.png);
+        background-size: cover;
+        height: 100vh;
+       }
+    </style>
+</head>
+<body>
+    <script src="script.js"></script>
+   
+    <div class="combo">
+        <p><span id="count-display">0</span></p>
+        <counter id="combo-text">COMBO</counter>
+    </div>
+    
+    <button id="movingButton">I am not a robot</button>
+   
+    <div class="title">
+      <!-- <h2>Combo the button 676, 767 amount of times to proceed.</h2> -->  
+    </div>
+
+    <div id="combo-miss"></div>
+
+    <div id="random-number-display">
+    <p>Combo the button</p>
+    <!-- This div holds the number -->
+    <p id="number-display"></p>
+    <p>times to verify</p>
+    </div>
+
+    <div id="color-box" style="width: 200px; height: 200px; background-color: #9ec0f2; margin-left: 595px; margin-top: 20px; border-radius: 20px; padding: 10px; display: flex;">
+    </div>
+
+</body>
+</html>
